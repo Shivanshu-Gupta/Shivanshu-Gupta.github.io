@@ -1,3 +1,19 @@
+"Singh":
+  - firstname: ["Sameer", "S."]
+    url: https://sameersingh.org/
+
+"Gardner":
+  - firstname: ["Matt", "M."]
+    url: https://matt-gardner.github.io/
+
+"Berant":
+  - firstname: ["Jonathan", "J."]
+    url: https://www.cs.tau.ac.il/~joberant/
+
+"Bogin":
+  - firstname: ["Ben", "B."]
+    url: https://benbogin.github.io/
+
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams

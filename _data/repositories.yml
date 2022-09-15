@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Shivanshu-Gupta
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Shivanshu-Gupta/hierarchical-attention-network
+  - Shivanshu-Gupta/Visual-Question-Answering
+  - Shivanshu-Gupta/Pytorch-POS-Tagger
+  - Shivanshu-Gupta/Pytorch-Double-DQN
+  - Shivanshu-Gupta/Cloud-Vault
+  - Shivanshu-Gupta/web-scrapers
