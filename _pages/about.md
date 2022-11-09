@@ -7,7 +7,8 @@ subtitle: PhD Student. <a href='https://uci.edu'>University of California, Irivn
 
 profile:
   align: right
-  image: PXL_20220704_202044019-cropped-2.jpg
+  # image: PXL_20220704_202044019-cropped-2.jpg
+  image: me-2.jpg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
