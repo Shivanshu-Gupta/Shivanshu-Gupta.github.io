@@ -7,3 +7,9 @@
 
 "Vision":
   color: "#009f36"
+
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp/
+
+"EMNLP Findings":
+  url: https://aclanthology.org/venues/findings/
