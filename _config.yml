@@ -102,17 +102,16 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 
 google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
-
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: nM_1g8wbvV4uVjpZVIyw0IBfqiLIenAtC97TbNrp7xM # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Shivanshu's Blog # blog_name will be displayed in your blog page
+blog_nav_title: Shivanshu's Blog # your blog must have a title for it to be displayed in the nav bar
+# blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -127,8 +126,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -171,6 +170,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
