@@ -26,17 +26,25 @@
   - firstname: ["Dheeru", "D."]
     url: https://ddua.github.io/
 
+"Sabharwal":
+  - firstname: ['Ashish']
+    url: https://allenai.org/team/ashishs
+
+"Clark":
+  - firstname: ['Peter']
+    url: https://allenai.org/team/peterc
+
+"Rosenbaum":
+  - firstname: ['Clemens']
+    url: https://scholar.google.com/citations?user=JkHX5H8AAAAJ&hl=en
+
+"Elenberg":
+  - firstname: ['Ethan R.']
+    url: https://eelenberg.github.io/
+
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]
@@ -44,19 +52,3 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
