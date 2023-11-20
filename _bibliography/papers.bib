@@ -1,6 +1,35 @@
 ---
 ---
 
+@misc{gupta2023gistscore,
+  title={GistScore: Learning Better Representations for In-Context Example Selection with Gist Bottlenecks},
+  author={Shivanshu Gupta and Clemens Rosenbaum and Ethan R. Elenberg},
+  year={2023},
+  eprint={2311.09606},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  abstract="Large language models (LLMs) have the ability to perform in-context learning (ICL) of new tasks by conditioning on prompts comprising a few task examples. This work studies the problem of selecting the best examples given a candidate pool to improve ICL performance on given a test input. Existing approaches either require training with feedback from a much larger LLM or are computationally expensive. We propose a novel metric, GistScore, based on Example Gisting, a novel approach for training example retrievers for ICL using an attention bottleneck via Gisting, a recent technique for compressing task instructions. To tradeoff performance with ease of use, we experiment with both fine-tuning gist models on each dataset and multi-task training a single model on a large collection of datasets. On 21 diverse datasets spanning 9 tasks, we show that our fine-tuned models get state-of-the-art ICL performance with 20% absolute average gain over off-the-shelf retrievers and 7% over the best prior methods. Our multi-task model generalizes well out-of-the-box to new task categories, datasets, and prompt templates with retrieval speeds that are consistently thousands of times faster than the best prior training-free method.",
+  abbr={ArXiv},
+  arxiv="2311.09606",
+  pdf="https://arxiv.org/pdf/2311.09606.pdf",
+  selected={true},
+  bibtex_show={true},
+}
+
+@misc{bogin2023leveraging,
+  title={Leveraging Code to Improve In-context Learning for Semantic Parsing},
+  author={Ben Bogin and Shivanshu Gupta and Peter Clark and Ashish Sabharwal},
+  year={2023},
+  eprint={2311.09519},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  abstract="In-context learning (ICL) is an appealing approach for semantic parsing due to its few-shot nature and improved generalization. However, learning to parse to rare domain-specific languages (DSLs) from just a few demonstrations is challenging, limiting the performance of even the most capable LLMs. In this work, we improve the effectiveness of ICL for semantic parsing by (1) using general-purpose programming languages such as Python instead of DSLs, and (2) augmenting prompts with a structured domain description that includes, e.g., the available classes and functions. We show that both these changes significantly improve accuracy across three popular datasets. Combined, they lead to dramatic improvements (e.g. 7.9% to 66.5% on SMCalFlow compositional split), nearly closing the performance gap between easier i.i.d.\ and harder compositional splits when used with a strong model, and reducing the need for a large number of demonstrations. We find that the resemblance of the target parse language to general-purpose code is a more important factor than the language's popularity in pre-training corpora. Our findings provide an improved methodology for building semantic parsers in the modern context of ICL with LLMs.",
+  abbr={ArXiv},
+  arxiv="2311.09519",
+  pdf="https://arxiv.org/pdf/2311.09519.pdf",
+  selected={true},
+  bibtex_show={true},
+}
 @misc{gupta2023coveragebased,
   title={Coverage-based Example Selection for In-Context Learning},
   author={Shivanshu Gupta and Matt Gardner and Sameer Singh},
@@ -37,7 +66,7 @@
   arxiv="2305.16302",
   website = "https://huggingface.co/datasets/AmazonScience/tydi-as2",
   pdf="https://aclanthology.org/2023.findings-acl.885.pdf",
-  selected={true},
+  selected={false},
   bibtex_show={true},
 }
 
@@ -60,7 +89,7 @@
   code = "https://github.com/dDua/succesive_prompting",
   arxiv="2212.04092",
   pdf="https://aclanthology.org/2022.emnlp-main.81.pdf",
-  selected={false},
+  selected={true},
   bibtex_show={true},
 }
 
@@ -82,9 +111,8 @@
   code = "https://github.com/Shivanshu-Gupta/structural-diversity",
   arxiv="2203.08445",
   pdf="https://aclanthology.org/2022.findings-emnlp.365.pdf",
+  selected={false},
   bibtex_show={true},
-  selected={true},
-
 }
 
 @misc{https://doi.org/10.48550/arxiv.2201.05899,
@@ -128,6 +156,6 @@
   arxiv="2109.10613",
   pdf="https://aclanthology.org/2021.emnlp-main.774.pdf",
   website = "https://covr-dataset.github.io/",
-  selected={true},
+  selected={false},
   bibtex_show={true},
 }

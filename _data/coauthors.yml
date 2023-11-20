@@ -26,6 +26,22 @@
   - firstname: ["Dheeru", "D."]
     url: https://ddua.github.io/
 
+"Sabharwal":
+  - firstname: ['Ashish']
+    url: https://allenai.org/team/ashishs
+
+"Clark":
+  - firstname: ['Peter']
+    url: https://allenai.org/team/peterc
+
+"Rosenbaum":
+  - firstname: ['Clemens']
+    url: https://scholar.google.com/citations?user=JkHX5H8AAAAJ&hl=en
+
+"Elenberg":
+  - firstname: ['Ethan R.']
+    url: https://eelenberg.github.io/
+
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
