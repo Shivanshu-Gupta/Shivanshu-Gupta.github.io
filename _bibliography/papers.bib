@@ -30,21 +30,28 @@
   selected={true},
   bibtex_show={true},
 }
-@misc{gupta2023coveragebased,
-  title={Coverage-based Example Selection for In-Context Learning},
-  author={Shivanshu Gupta and Matt Gardner and Sameer Singh},
-  month = may,
-  year={2023},
-  eprint={2305.14907},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  abstract="In-context learning (ICL), the ability of large language models to perform novel tasks by conditioning on a prompt with a few task examples, requires demonstrations that are informative about the test instance. The standard approach of independently selecting the most similar examples selects redundant demonstrations while overlooking important information. This work proposes a framework for assessing the informativeness of demonstrations based on their coverage of salient aspects (e.g., reasoning patterns) of the test input. Using this framework, we show that contextual token embeddings effectively capture these salient aspects, and their recall measured using BERTScore-Recall (BSR) yields a reliable measure of informativeness. Further, we extend recall metrics like BSR to propose their set versions to find maximally informative sets of demonstrations. On 6 complex compositional generation tasks and 7 diverse LLMs, we show that Set-BSR outperforms the standard similarity-based approach by up to 16% on average and, despite being learning-free, often surpasses methods that leverage task or LLM-specific training.",
+@inproceedings{gupta-etal-2023-coverage,
+    title = "Coverage-based Example Selection for In-Context Learning",
+    author = "Gupta, Shivanshu  and
+      Gardner, Matt  and
+      Singh, Sameer",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.930",
+    pages = "13924--13950",
+    abstract = "In-context learning (ICL), the ability of large language models to perform novel tasks by conditioning on a prompt with a few task examples, requires these examples to be informative about the test instance. The standard approach of independently ranking and selecting the most similar examples selects redundant examples while omitting important information. In this work, we show that BERTScore-Recall (BSR) selects better examples that demonstrate more of the salient aspects, e.g. reasoning patterns, of the test input. We further extend BSR and many standard metrics to easily optimizable set-level metrics, giving still better coverage of those salient aspects. On 15 datasets spanning 6 tasks and with 7 diverse LLMs, we show that (1) BSR is the superior metric for in-context example selection across the board, and (2) for compositional tasks, set selection using Set-BSR outperforms independent ranking by up to 17 points on average and, despite being training-free, surpasses methods that leverage task or LLM-specific training.",
 
-  abbr={ArXiv},
-  arxiv="2305.14907",
-  pdf="https://arxiv.org/pdf/2305.14907.pdf",
-  selected={true},
-  bibtex_show={true},
+    abbr={EMNLP Findings},
+    arxiv="2305.14907",
+    pdf="https://aclanthology.org/2023.findings-emnlp.930.pdf",
+    selected={true},
+    bibtex_show={true},
 }
 
 @inproceedings{gupta-etal-2023-cross,
