@@ -25,12 +25,12 @@
       institution: University of California Irvine, USA
       year: Sep '20 - Present
       description:
-        - Working on improving the systematic generalization and multi-step reasoning capabilities of NLP models.
+        - Working on improving the reasoning, in-context learning and systematic generalization capabilities of large language models.
     - title: Research Scientist Intern
       institution: ASAPP Inc., New York, USA
       year: Jun - Sep '23
       description:
-      - Developed a novel approach for encoding and selecting examples for in-context learning with LLMs.
+      - Developed a novel approach for encoding and selecting examples for in-context learning with LLMs with state-of-the-art performance on a variety of tasks.
     - title: Applied Scientist Intern
       institution: Amazon Alexa AI, Sunnyvale, USA
       year: Jun - Sep '22
