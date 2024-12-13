@@ -20,9 +20,9 @@
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
+    // {color.channel($black-color, "red", $space: rgb)},
+    // {color.channel($black-color, "green", $space: rgb)},
+    // {color.channel($black-color, "blue", $space: rgb)},
     0.4
   );
   --global-back-to-top-text-color: #{$white-color};

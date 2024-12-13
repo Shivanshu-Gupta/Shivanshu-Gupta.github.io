@@ -1,57 +1,74 @@
 ---
 ---
 
-@misc{gupta2023gistscore,
-  title={GistScore: Learning Better Representations for In-Context Example Selection with Gist Bottlenecks},
-  author={Shivanshu Gupta and Clemens Rosenbaum and Ethan R. Elenberg},
-  year={2023},
-  eprint={2311.09606},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  abstract="Large language models (LLMs) have the ability to perform in-context learning (ICL) of new tasks by conditioning on prompts comprising a few task examples. This work studies the problem of selecting the best examples given a candidate pool to improve ICL performance on given a test input. Existing approaches either require training with feedback from a much larger LLM or are computationally expensive. We propose a novel metric, GistScore, based on Example Gisting, a novel approach for training example retrievers for ICL using an attention bottleneck via Gisting, a recent technique for compressing task instructions. To tradeoff performance with ease of use, we experiment with both fine-tuning gist models on each dataset and multi-task training a single model on a large collection of datasets. On 21 diverse datasets spanning 9 tasks, we show that our fine-tuned models get state-of-the-art ICL performance with 20% absolute average gain over off-the-shelf retrievers and 7% over the best prior methods. Our multi-task model generalizes well out-of-the-box to new task categories, datasets, and prompt templates with retrieval speeds that are consistently thousands of times faster than the best prior training-free method.",
+
+@inproceedings{gupta2023gistscore,
+  title = 	 {{G}ist{S}core: Learning Better Representations for In-Context Example Selection with Gist Bottlenecks},
+  author =       {Gupta, Shivanshu and Rosenbaum, Clemens and Elenberg, Ethan R.},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {17072--17099},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 jul,
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/gupta24c/gupta24c.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/gupta24c.html},
+  abstract = 	 {In-Context Learning (ICL) is the ability of Large Language Models (LLMs) to perform new tasks when conditioned on prompts comprising a few task examples. However, ICL performance can be critically sensitive to the choice of examples. To dynamically select the best examples for every test input, we propose Example Gisting, a novel approach for training example encoders through supervised finetuning with an attention bottleneck between the inputs and outputs. These gist models form the basis for GistScore, a novel metric for scoring and selecting informative examples. Further, we experiment with two variations: (1) finetuning gist models for each dataset and (2) multi-task training a single model on a large collection of datasets. The latter can be used for new tasks out-of-the-box, enabling a training-free ICL pipeline. Evaluations with 21 datasets spanning 9 tasks and 8 diverse LLMs show that our fine-tuned models get state-of-the-art ICL performance with over 20% absolute gain over off-the-shelf retrievers and 5% over the best prior methods. Further, our multi-task model generalizes well to new tasks, datasets, and prompt templates. Selection using this model matches or outperforms prior methods while being three orders of magnitude faster than the strongest training-free baseline.},
+
   abbr={ICML},
   arxiv="2311.09606",
-  pdf="https://arxiv.org/pdf/2311.09606.pdf",
   selected={true},
   bibtex_show={true},
 }
 
-@misc{bogin2023leveraging,
-  title={Leveraging Code to Improve In-context Learning for Semantic Parsing},
-  author={Ben Bogin and Shivanshu Gupta and Peter Clark and Ashish Sabharwal},
-  year={2023},
-  eprint={2311.09519},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  abstract="In-context learning (ICL) is an appealing approach for semantic parsing due to its few-shot nature and improved generalization. However, learning to parse to rare domain-specific languages (DSLs) from just a few demonstrations is challenging, limiting the performance of even the most capable LLMs. In this work, we improve the effectiveness of ICL for semantic parsing by (1) using general-purpose programming languages such as Python instead of DSLs, and (2) augmenting prompts with a structured domain description that includes, e.g., the available classes and functions. We show that both these changes significantly improve accuracy across three popular datasets. Combined, they lead to dramatic improvements (e.g. 7.9% to 66.5% on SMCalFlow compositional split), nearly closing the performance gap between easier i.i.d.\ and harder compositional splits when used with a strong model, and reducing the need for a large number of demonstrations. We find that the resemblance of the target parse language to general-purpose code is a more important factor than the language's popularity in pre-training corpora. Our findings provide an improved methodology for building semantic parsers in the modern context of ICL with LLMs.",
+@inproceedings{bogin2023leveraging,
+  title = "Leveraging Code to Improve In-Context Learning for Semantic Parsing",
+  author = "Ben Bogin* and Shivanshu Gupta* and Peter Clark and Ashish Sabharwal",
+  editor = "Duh, Kevin  and
+    Gomez, Helena  and
+    Bethard, Steven",
+  booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+  month = jun,
+  year = "2024",
+  address = "Mexico City, Mexico",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2024.naacl-long.279",
+  doi = "10.18653/v1/2024.naacl-long.279",
+  pages = "4971--5012",
+  abstract = "In-context learning (ICL) is an appealing approach for semantic parsing due to its few-shot nature and improved generalization. However, learning to parse to rare domain-specific languages (DSLs) from just a few demonstrations is challenging, limiting the performance of even the most capable LLMs.In this work, we show how pre-existing coding abilities of LLMs can be leveraged for semantic parsing by (1) using general-purpose programming languages such as Python instead of DSLs and (2) augmenting prompts with a structured domain description that includes, e.g., the available classes and functions. We show that both these changes significantly improve accuracy across three popular datasets; combined, they lead to dramatic improvements (e.g., 7.9{\%} to 66.5{\%} on SMCalFlow compositional split) and can substantially improve compositional generalization, nearly closing the performance gap between easier i.i.d. and harder compositional splits. Finally, comparisons across multiple PLs and DSL variations suggest that the similarity of a target language to general-purpose code is more important than prevalence in pretraining corpora. Our findings provide an improved methodology for building semantic parsers in the modern context of ICL with LLMs.",
+
   abbr={NAACL},
   arxiv="2311.09519",
-  pdf="https://arxiv.org/pdf/2311.09519.pdf",
+  pdf="https://aclanthology.org/2024.naacl-long.279.pdf",
   selected={true},
   bibtex_show={true},
+  annotation={* Equal contribution.}
 }
-@inproceedings{gupta-etal-2023-coverage,
-    title = "Coverage-based Example Selection for In-Context Learning",
-    author = "Gupta, Shivanshu  and
-      Gardner, Matt  and
-      Singh, Sameer",
-    editor = "Bouamor, Houda  and
-      Pino, Juan  and
-      Bali, Kalika",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
-    month = dec,
-    year = "2023",
-    address = "Singapore",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.findings-emnlp.930",
-    pages = "13924--13950",
-    abstract = "In-context learning (ICL), the ability of large language models to perform novel tasks by conditioning on a prompt with a few task examples, requires these examples to be informative about the test instance. The standard approach of independently ranking and selecting the most similar examples selects redundant examples while omitting important information. In this work, we show that BERTScore-Recall (BSR) selects better examples that demonstrate more of the salient aspects, e.g. reasoning patterns, of the test input. We further extend BSR and many standard metrics to easily optimizable set-level metrics, giving still better coverage of those salient aspects. On 15 datasets spanning 6 tasks and with 7 diverse LLMs, we show that (1) BSR is the superior metric for in-context example selection across the board, and (2) for compositional tasks, set selection using Set-BSR outperforms independent ranking by up to 17 points on average and, despite being training-free, surpasses methods that leverage task or LLM-specific training.",
 
-    abbr={EMNLP Findings},
-    arxiv="2305.14907",
-    pdf="https://aclanthology.org/2023.findings-emnlp.930.pdf",
-    selected={true},
-    bibtex_show={true},
+@inproceedings{gupta-etal-2023-coverage,
+  title = "Coverage-based Example Selection for In-Context Learning",
+  author = "Gupta, Shivanshu  and
+    Gardner, Matt  and
+    Singh, Sameer",
+  editor = "Bouamor, Houda  and
+    Pino, Juan  and
+    Bali, Kalika",
+  booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+  month = dec,
+  year = "2023",
+  address = "Singapore",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2023.findings-emnlp.930",
+  pages = "13924--13950",
+  abstract = "In-context learning (ICL), the ability of large language models to perform novel tasks by conditioning on a prompt with a few task examples, requires these examples to be informative about the test instance. The standard approach of independently ranking and selecting the most similar examples selects redundant examples while omitting important information. In this work, we show that BERTScore-Recall (BSR) selects better examples that demonstrate more of the salient aspects, e.g. reasoning patterns, of the test input. We further extend BSR and many standard metrics to easily optimizable set-level metrics, giving still better coverage of those salient aspects. On 15 datasets spanning 6 tasks and with 7 diverse LLMs, we show that (1) BSR is the superior metric for in-context example selection across the board, and (2) for compositional tasks, set selection using Set-BSR outperforms independent ranking by up to 17 points on average and, despite being training-free, surpasses methods that leverage task or LLM-specific training.",
+
+  abbr={EMNLP Findings},
+  arxiv="2305.14907",
+  pdf="https://aclanthology.org/2023.findings-emnlp.930.pdf",
+  selected={true},
+  bibtex_show={true},
 }
 
 @inproceedings{gupta-etal-2023-cross,

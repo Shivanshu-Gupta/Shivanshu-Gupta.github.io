@@ -13,3 +13,7 @@ vendor
 .idea
 
 uci-ava-s0/
+
+_posts_bak/
+_projects_bak/
+assets/json/resume.json.bak

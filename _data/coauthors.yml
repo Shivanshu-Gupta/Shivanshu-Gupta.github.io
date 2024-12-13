@@ -1,48 +1,48 @@
-"Matsubara":
+"matsubara":
   - firstname: ["Yoshitomo", "Y."]
     url: https://yoshitomo-matsubara.net/
 
-"Moschitti":
+"moschitti":
   - firstname: ["Alessandro", "A."]
     url: https://disi.unitn.it/~moschitti/
 
-"Singh":
+"singh":
   - firstname: ["Sameer", "S."]
     url: https://sameersingh.org/
 
-"Gardner":
+"gardner":
   - firstname: ["Matt", "M."]
     url: https://matt-gardner.github.io/
 
-"Berant":
+"berant":
   - firstname: ["Jonathan", "J."]
     url: https://www.cs.tau.ac.il/~joberant/
 
-"Bogin":
+"bogin":
   - firstname: ["Ben", "B."]
     url: https://benbogin.github.io/
 
-"Dua":
+"dua":
   - firstname: ["Dheeru", "D."]
     url: https://ddua.github.io/
 
-"Sabharwal":
-  - firstname: ['Ashish']
+"sabharwal":
+  - firstname: ["Ashish"]
     url: https://allenai.org/team/ashishs
 
-"Clark":
-  - firstname: ['Peter']
+"clark":
+  - firstname: ["Peter"]
     url: https://allenai.org/team/peterc
 
-"Rosenbaum":
-  - firstname: ['Clemens']
+"rosenbaum":
+  - firstname: ["Clemens"]
     url: https://scholar.google.com/citations?user=JkHX5H8AAAAJ&hl=en
 
-"Elenberg":
-  - firstname: ['Ethan R.']
+"elenberg":
+  - firstname: ["Ethan R."]
     url: https://eelenberg.github.io/
 
-"Adams":
+"adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 

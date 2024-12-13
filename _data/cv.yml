@@ -31,15 +31,15 @@
       institution: Allen Institute for AI, Seattle, Washington
       year: Apr - Present
       description:
-      - Joined the Aristo team. Mentored by Ben Bogin and Tushar Khot.
-      - Working on improving Language Model Agents for complex long-trajectory tasks.
+        - Joined the Aristo team. Mentored by Ben Bogin and Tushar Khot.
+        - Working on improving Language Model Agents for complex long-trajectory tasks.
 
     - title: Research Scientist Intern
       institution: ASAPP Inc., New York, USA
       year: Jun - Sep '23
       description:
-      - Mentored by Ethan Elenberg and Clemens Rosenbaum.
-      - Developed a novel approach for encoding and selecting examples for In-Context Learning with LLMs yielding state-of-the-art performance on a variety of tasks.
+        - Mentored by Ethan Elenberg and Clemens Rosenbaum.
+        - Developed a novel approach for encoding and selecting examples for In-Context Learning with LLMs yielding state-of-the-art performance on a variety of tasks.
 
     - title: Applied Scientist Intern
       institution: Amazon Alexa AI, Sunnyvale, USA
@@ -60,14 +60,14 @@
       institution: Amazon, Delhi, India
       year: May - Jul '17
       description:
-      - Joined the Last Mile Technology team.
-      - Enabled the externalization of Amazon's Last Mile Package Delivery technology.
+        - Joined the Last Mile Technology team.
+        - Enabled the externalization of Amazon's Last Mile Package Delivery technology.
     - title: Software Development Engineering Intern
       institution: Amazon, Bangalore, India
       year: May - Jul '16
       description:
-      - Joined the Machine Learning - Seller Service team.
-      - Developed pipeline abstractions for PySpark to enable rapid prototyping of machine learning algorithms.
+        - Joined the Machine Learning - Seller Service team.
+        - Developed pipeline abstractions for PySpark to enable rapid prototyping of machine learning algorithms.
 
 - title: Teaching Experience
   type: time_table
@@ -111,4 +111,4 @@
   type: list
   contents:
     - <u>Languages:</u> Python, C/C++, Java, Bash, Scala, LaTeX
-    - <u>Libraries/Frameworks:</u> PyTorch, AllenNLP
+    - <u>Libraries/Frameworks:</u> PyTorch, Transformers, etc.
