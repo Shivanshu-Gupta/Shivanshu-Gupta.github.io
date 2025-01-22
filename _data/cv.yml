@@ -39,14 +39,14 @@
       year: Jun - Sep '23
       description:
         - Mentored by Ethan Elenberg and Clemens Rosenbaum.
-        - Developed a novel approach for encoding and selecting examples for In-Context Learning with LLMs yielding state-of-the-art performance on a variety of tasks.
+        - Developed a novel approach for retrieving examples for In-Context Learning with LLMs yielding state-of-the-art performance on a wide variety of tasks.
 
     - title: Applied Scientist Intern
       institution: Amazon Alexa AI, Sunnyvale, USA
       year: Jun - Sep '22
       description:
         - Joined the Web Information team. Mentored by Yoshitomo Matsubara.
-        - Worked on using Cross-Lingual Knowledge Distillation to improve the performance of Answer Sentence Selection (AS2) models in low-resource languages lacking labeled data.
+        - Developed a novel Cross-Lingual Knowledge Distillation approach that improved Answer Sentence Selection (AS2) models for low-resource languages lacking labeled data.
 
     - title: Applied Research Engineer - Machine Learning
       institution: LinkedIn, Bangalore, India
@@ -90,7 +90,7 @@
   contents:
     - year: 2024
       items:
-      - <b>Best Paper Award.</b> NAACL-SRW 2024
+        - <b>Best Paper Award.</b> NAACL-SRW 2024
     - year: 2017
       items:
         - <b>Outstanding Contribution Award.</b> Training & Placement Cell, IIT Delhi

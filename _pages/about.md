@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student. [University of California, Irivne](https://uci.edu).
+subtitle: PhD Student. <a href='https://uci.edu'>University of California, Irivne</a>.
 
 profile:
   align: right
