@@ -14,7 +14,7 @@
     - title: PhD Computer Science
       institution: University of California Irvine, USA
       year: 2020 - Present
-    - title: B.Tech. & M.Tech., Compouter Science and Engineering
+    - title: B.Tech. & M.Tech., Computer Science and Engineering
       institution: Indian Institute of Technology Delhi
       year: 2013 - 2018
 
@@ -29,7 +29,7 @@
 
     - title: Research Intern
       institution: Allen Institute for AI, Seattle, Washington
-      year: Apr - Present
+      year: Apr '24 - Present
       description:
         - Joined the Aristo team. Mentored by Ben Bogin and Tushar Khot.
         - Working on improving Language Model Agents for complex long-trajectory tasks.
@@ -74,26 +74,33 @@
   contents:
     - title: Teaching Assistant
       institution: University of California Irvine, USA
+      year: Jan '23 - Mar '23
+      description: "Teaching Assistant for the <i>Probabilistic Learning: Theory and Algorithms course</i>."
+    - title: Teaching Assistant
+      institution: University of California Irvine, USA
       year: Apr '22 - Jun '22
-      description: Teaching Assistant for the Natural Language Processing course.
+      description: Teaching Assistant for the <i>Natural Language Processing</i> course.
     - title: Teaching Assistant
       institution: IIT Delhi, India
       year: Jul '17 - May '18
-      description: "Teaching Assistant for three courses: Data Structures, Programming Languages and Artificial Intelligence."
+      description: "Teaching Assistant for three courses: <i>Data Structures</i>, <i>Programming Languages</i> and <i>Artificial Intelligence</i>."
 
 - title: Awards and Achievements
   type: time_table
   contents:
+    - year: 2024
+      items:
+      - <b>Best Paper Award.</b> NAACL-SRW 2024
     - year: 2017
       items:
-        - <b>Outstanding Contribution Award</b>. Training & Placement Cell, IIT Delhi
+        - <b>Outstanding Contribution Award.</b> Training & Placement Cell, IIT Delhi
     - year: 2015
       items:
-        - <b>Summer Undergraduate Research Award</b>. Industrial Research & Development Unit, IIT Delhi.
+        - <b>Summer Undergraduate Research Award.</b> Industrial Research & Development Unit, IIT Delhi.
     - year: 2013
       items:
         - <b>All-India-Rank of 189</b> in IIT-JEE Advanced among over 150,000 candidates.
-        - <b>Kishore Vaigyanik Protsahan Yojana Scholarship</b>. Department of Science & Technology, Government of India.
+        - <b>Kishore Vaigyanik Protsahan Yojana Scholarship.</b> Department of Science & Technology, Government of India.
 
 # - title: Academic Interests
 #   type: nested_list
@@ -106,6 +113,21 @@
 #       items:
 #         - Description 1.
 #         - Description 2.
+
+- title: Service
+  type: list
+  contents:
+    - <b>Program Committee Member.</b> <i>AI & Scientific Discovery Workshop</i> at <i>NAACL 2025</i>
+    - <b>Reviewer.</b> <i>ACL Rolling Review (ARR), LREC-COLING 2024</i>
+    - <b>Student Volunteer.</b> <i>EMNLP 2021, EMNLP 2022</i>
+    - <b>Technical Team Leader.</b> <i>Training & Placements Cell</i>, 2015-17
+    - <b>Technical Coordinator.</b> <i>ACM Student Chapter</i>, 2014-2015
+
+- title: Invited Talks
+  type: list
+  contents:
+    - <b>Example Selection for In-Context Learning.</b> IBM Research (2023), USC ISI-NLG (2024).
+    - <b>Neural Model for Question Answering on Wikipedia Tables.</b> Microsoft Research India (2017).
 
 - title: Skills
   type: list
