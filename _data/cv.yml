@@ -21,18 +21,24 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Applied Scientist
+      institution: Adobe
+      year: Jul '25 - Present
+      description:
+        - Joined the Experience Platform team. Working on improving the Operational Insights Agent.
+
     - title: Graduate Student Researcher
       institution: University of California Irvine, USA
-      year: Sep '20 - Present
-      description:
-        - Working on improving the reasoning, in-context learning and systematic generalization capabilities of large language models.
+      year: Sep '20 - Jun '25
+      # description:
+        # - Worked on improving the reasoning, in-context learning and systematic generalization capabilities of large language models.
 
     - title: Research Intern
       institution: Allen Institute for AI, Seattle, Washington
-      year: Apr '24 - Present
+      year: Apr '24 - Mar '25
       description:
         - Joined the Aristo team. Mentored by Ben Bogin and Tushar Khot.
-        - Working on improving Language Model Agents for complex long-trajectory tasks.
+        - Developed novel In-Context Learning approaches that significantly improve Language Model Agents for complex long-trajectory tasks
 
     - title: Research Scientist Intern
       institution: ASAPP Inc., New York, USA
