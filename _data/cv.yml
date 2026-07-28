@@ -13,7 +13,7 @@
   contents:
     - title: PhD Computer Science
       institution: University of California Irvine, USA
-      year: 2020 - Present
+      year: 2020 - 2025
     - title: B.Tech. & M.Tech., Computer Science and Engineering
       institution: Indian Institute of Technology Delhi
       year: 2013 - 2018
@@ -25,39 +25,40 @@
       institution: Adobe
       year: Jul '25 - Present
       description:
-        - Joined the Experience Platform team. Working on improving the Operational Insights Agent.
-
+        - Working on enterprise LLM agents in Adobe Experience Platform's Agent Orchestrator team.
     - title: Graduate Student Researcher
       institution: University of California Irvine, USA
       year: Sep '20 - Jun '25
       # description:
-        # - Worked on improving the reasoning, in-context learning and systematic generalization capabilities of large language models.
+      # - Worked on improving the reasoning, in-context learning and systematic generalization capabilities of large language models.
 
     - title: Research Intern
       institution: Allen Institute for AI, Seattle, Washington
       year: Apr '24 - Mar '25
       description:
         - Joined the Aristo team. Mentored by Ben Bogin and Tushar Khot.
-        - Developed novel In-Context Learning approaches that significantly improve Language Model Agents for complex long-trajectory tasks
+        - Developed methods for improving API-using LLM agents through in-context learning, dramatically increasing task success, robustness, reliability, and efficiency across API and tool-use benchmarks.
 
     - title: Research Scientist Intern
       institution: ASAPP Inc., New York, USA
       year: Jun - Sep '23
       description:
         - Mentored by Ethan Elenberg and Clemens Rosenbaum.
-        - Developed a novel approach for retrieving examples for In-Context Learning with LLMs yielding state-of-the-art performance on a wide variety of tasks.
+        - Developed a novel approach for multi-task training of example retrievers for In-Context Learning that yielded state-of-the-art ICL performance on 21 datasets spanning 9 tasks and 8 LLMs.
 
     - title: Applied Scientist Intern
       institution: Amazon Alexa AI, Sunnyvale, USA
       year: Jun - Sep '22
       description:
         - Joined the Web Information team. Mentored by Yoshitomo Matsubara.
-        - Developed a novel Cross-Lingual Knowledge Distillation approach that improved Answer Sentence Selection (AS2) models for low-resource languages lacking labeled data.
+        - Developed a novel Cross-Lingual Knowledge Distillation approach for improving Answer Sentence Selection models for low-resource languages lacking labeled data.
 
     - title: Applied Research Engineer - Machine Learning
       institution: LinkedIn, Bangalore, India
       year: Oct '18 - Jul '20
-      description: Worked as a Research Fellow at Microsoft Research India on improving LinkedIn's Job Recommendation pipeline using Extreme Multi-label Classification algorithms.
+      description:
+        - Worked as a Research Fellow at Microsoft Research India mentored by Prateek Jain.
+        - Developed Extreme Multi-label Classification algorithms for LinkedIn's Job Recommendation System.
 
 - title: Engineering Experience
   type: time_table
@@ -108,23 +109,12 @@
         - <b>All-India-Rank of 189</b> in IIT-JEE Advanced among over 150,000 candidates.
         - <b>Kishore Vaigyanik Protsahan Yojana Scholarship.</b> Department of Science & Technology, Government of India.
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
 - title: Service
   type: list
   contents:
+    - <b>Program Committee Member.</b> <i>Multi-Turn Interactions in LLMs Workshop</i> at <i>NeurIPS 2025</i>
     - <b>Program Committee Member.</b> <i>AI & Scientific Discovery Workshop</i> at <i>NAACL 2025</i>
-    - <b>Reviewer.</b> <i>ACL Rolling Review (ARR), LREC-COLING 2024</i>
+    - <b>Reviewer.</b> <i>ACL Rolling Review (ARR), LREC-COLING 2024, COLM 2026, NeurIPS 2026</i>
     - <b>Student Volunteer.</b> <i>EMNLP 2021, EMNLP 2022</i>
     - <b>Technical Team Leader.</b> <i>Training & Placements Cell</i>, 2015-17
     - <b>Technical Coordinator.</b> <i>ACM Student Chapter</i>, 2014-2015
@@ -132,6 +122,7 @@
 - title: Invited Talks
   type: list
   contents:
+    - <b>Demonstration Selection and Task Formulation for Effective In-Context Learning.</b> Adobe AEP Seminar (2025).
     - <b>Example Selection for In-Context Learning.</b> IBM Research (2023), USC ISI-NLG (2024).
     - <b>Neural Model for Question Answering on Wikipedia Tables.</b> Microsoft Research India (2017).
 
@@ -139,4 +130,4 @@
   type: list
   contents:
     - <u>Languages:</u> Python, C/C++, Java, Bash, Scala, LaTeX
-    - <u>Libraries/Frameworks:</u> PyTorch, Transformers, etc.
+    - <u>Libraries/Frameworks:</u> PyTorch, Transformers, LangChain, Scikit-Learn, etc.

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student. <a href='https://uci.edu'>University of California, Irivne</a>.
+subtitle: Applied Scientist. <b>Adobe.</b>
 
 profile:
   align: right
@@ -25,8 +25,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-<!-- Shivanshu Gupta is a third-year Computer Science Ph.D. student at the University of California Irvine advised by Sameer Singh and working in the areas of Natural Language Processing and Machine Learning. He is primarily interested in improving the systematic generalization and multi-step reasoning capabilities of NLP models. Apart from this, his research interests include question answering, semantic parsing, and knowledge distillation. Prior to this he worked as a Research Fellow at LinkedIn and Microsoft Research India and completed his B.Tech. and M.Tech. in Computer Science from IIT Delhi. -->
+I’m an Applied Scientist working on enterprise agents in Adobe Experience Platform (AEP)'s Agent Orchestrator team. Previously, I obtained my Ph.D. in Computer Science from the University of California Irvine where I was advised by [Sameer Singh](https://sameersingh.org). During my PhD, I was fortunate to spend time at [Amazon Alexa AI](https://www.amazon.science), [ASAPP Inc.](https://www.asapp.com), and the [Aristo team at AI2](https://allenai.org). Prior to this, I worked as a Research Fellow at LinkedIn and Microsoft Research India advised by [Prateek Jain](https://www.prateekjain.org/), and completed my B.Tech. and M.Tech. in Computer Science from [IIT Delhi](https://home.iitd.ac.in/) where I was advised by [Mausam](https://www.cse.iitd.ac.in/~mausam).
 
-I’m a Computer Science Ph.D. Candidate at the University of California Irvine advised by [Sameer Singh](https://sameersingh.org) and working in the areas of Natural Language Processing and Machine Learning. During my PhD, I've been fortunate to spend time at [Amazon Alexa AI](https://www.amazon.science), [ASAPP Inc.](https://www.asapp.com), and the [Aristo team at AI2](https://allenai.org). Prior to this, I worked as a Research Fellow at LinkedIn and Microsoft Research India under the advisership of [Prateek Jain](https://www.prateekjain.org/), and completed my B.Tech. and M.Tech. in Computer Science from [IIT Delhi](https://home.iitd.ac.in/) where I was advised by [Mausam](https://www.cse.iitd.ac.in/~mausam).
-
-My primary research interest is making large language models and agents better in-context learners and reasoners. Apart from this, I'm also interested in systematic generalization, semantic parsing, question-answering, retrieval, and knowledge distillation. My research has been recognized with a [Best Paper Award](https://docs.google.com/presentation/d/1TVDooAZqkNObz5ysVhDFtqnnVHR-u8wqYvgix-gzPMs/edit#slide=id.g2e55907bbcc_0_65) at [NAACL-SRW 2024](https://naacl2024-srw.github.io/).
+My primary research interests include [language model agents](https://arxiv.org/abs/2506.13109), [in-context](http://arxiv.org/abs/2305.14907) [learning](http://arxiv.org/abs/2311.09606), and [retrieval](http://arxiv.org/abs/2311.09606). Apart from these, I'm also interested in [knowledge distillation](https://arxiv.org/abs/2305.16302), [semantic](https://arxiv.org/abs/2305.14907) [parsing](https://arxiv.org/abs/2203.08445), and [question-answering](https://aclanthology.org/2022.emnlp-main.81/). My research has been recognized with a [Best Paper Award](https://docs.google.com/presentation/d/1TVDooAZqkNObz5ysVhDFtqnnVHR-u8wqYvgix-gzPMs/edit#slide=id.g2e55907bbcc_0_65) at [NAACL-SRW 2024](https://naacl2024-srw.github.io/).
